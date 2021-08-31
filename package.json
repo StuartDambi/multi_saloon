@@ -1,0 +1,35 @@
+{
+  "name": "multisalon",
+  "version": "1.0.0",
+  "description": "MultiSalon is a platform where people make reservations for salons in Uganda",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuartDambi/multi_saloon.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "Nodejs",
+    "ReservationSystems"
+  ],
+  "author": "Stuart Dambi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StuartDambi/multi_saloon/issues"
+  },
+  "homepage": "https://github.com/StuartDambi/multi_saloon#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
